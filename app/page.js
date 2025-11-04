@@ -141,7 +141,7 @@ export default function Home() {
 
                                         {item.site}
                                     </td>
-                                    <td className="flex flex-col items-center px-3 md:px-6 py-4">
+                                    <td className="flex flex-col items-center px-3 md:px-6 py-4 dark:text-white">
                                         <div className="flex break-all flex-wrap gap-2">
                                             {item.username} <svg onClick={() => { copyText(item.username) }} className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" viewboxidth="24" height="24" color="#000000" fill="none">
                                                 <path d="M16.9637 8.98209C16.9613 6.03194 16.9167 4.50384 16.0578 3.45753C15.892 3.25546 15.7067 3.07019 15.5047 2.90436C14.4008 1.99854 12.7609 1.99854 9.48087 1.99854C6.20089 1.99854 4.5609 1.99854 3.45708 2.90436C3.255 3.07018 3.06971 3.25546 2.90387 3.45753C1.99799 4.56128 1.99799 6.20116 1.99799 9.48091C1.99799 12.7607 1.99799 14.4005 2.90387 15.5043C3.0697 15.7063 3.255 15.8916 3.45708 16.0574C4.50346 16.9162 6.03167 16.9608 8.98201 16.9632" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -149,7 +149,7 @@ export default function Home() {
                                             </svg>
                                         </div>
                                     </td>
-                                    <td className="px-3 md:px-6 py-4">
+                                    <td className="px-3 md:px-6 py-4 dark:text-white">
                                         <div className="flex flex-wrap break-all justify-center items-center gap-2">
                                             {item.password} <svg onClick={() => { copyText(item.password) }} className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" viewboxidth="24" height="24" color="#000000" fill="none">
                                                 <path d="M16.9637 8.98209C16.9613 6.03194 16.9167 4.50384 16.0578 3.45753C15.892 3.25546 15.7067 3.07019 15.5047 2.90436C14.4008 1.99854 12.7609 1.99854 9.48087 1.99854C6.20089 1.99854 4.5609 1.99854 3.45708 2.90436C3.255 3.07018 3.06971 3.25546 2.90387 3.45753C1.99799 4.56128 1.99799 6.20116 1.99799 9.48091C1.99799 12.7607 1.99799 14.4005 2.90387 15.5043C3.0697 15.7063 3.255 15.8916 3.45708 16.0574C4.50346 16.9162 6.03167 16.9608 8.98201 16.9632" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -157,7 +157,7 @@ export default function Home() {
                                             </svg>
                                         </div>
                                     </td>
-                                    <td className="px-3 md:px-6 py-4">
+                                    <td className="px-3 md:px-6 py-4 dark:text-white">
                                         <div className="flex gap-2 items-center justify-center">
                                         <svg onClick={() => { Edit(item.id) }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                                             <path d="M16.9459 3.17305C17.5332 2.58578 17.8268 2.29215 18.1521 2.15173C18.6208 1.94942 19.1521 1.94942 19.6208 2.15173C19.946 2.29215 20.2397 2.58578 20.8269 3.17305C21.4142 3.76032 21.7079 4.05395 21.8483 4.37925C22.0506 4.8479 22.0506 5.37924 21.8483 5.84789C21.7079 6.17319 21.4142 6.46682 20.8269 7.05409L15.8054 12.0757C14.5682 13.3129 13.9496 13.9315 13.1748 14.298C12.4 14.6645 11.5294 14.7504 9.78823 14.9222L9 15L9.07778 14.2118C9.24958 12.4706 9.33549 11.6 9.70201 10.8252C10.0685 10.0504 10.6871 9.43183 11.9243 8.19464L16.9459 3.17305Z" stroke="#141B34" strokeWidth="1.5" strokeLinejoin="round" />

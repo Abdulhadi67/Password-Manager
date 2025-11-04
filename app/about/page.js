@@ -6,7 +6,7 @@ const page = () => {
     <div>
      <Back/>
     <div className=" text-gray-800 px-6 py-12">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto max-h-screen overflow-x-hidden overflow-y-auto">
         <h1 className="text-4xl font-bold mb-6 text-center text-amber-300">About&nbsp; Pass-Op</h1>
 
         <div className="bg-white shadow-lg rounded-lg p-6">
